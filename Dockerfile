@@ -5,7 +5,7 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-EXPOSE 8000  
+EXPOSE 8000
 
 ENV PORT 8000  # Define PORT environment variable (optional)
 
