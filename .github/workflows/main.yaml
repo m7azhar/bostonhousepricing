@@ -17,9 +17,9 @@ jobs:
 
       ### ⬇ IMPORTANT PART ⬇ ###
       - name: Deploy to Render
-        uses: render-com/action@1.6.0
+        uses: render/webhooks@v1
         with:
           render_account_id: ${{ secrets.cn7i2kmct0pc738uqs60}}
           render_token: ${{ secrets.rnd_bGOd3J71DHIR8fE2sZBSavz3Cvhd}}
-          render_yaml_path: ./render.yaml # Path to your Render YAML configuration file
+          render_yaml_path: ./main.yaml # Path to your Render YAML configuration file
       ### ⬆ IMPORTANT PART ⬆ ###
